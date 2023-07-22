@@ -1,0 +1,46 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+
+# Build directories
+build/
+bin/
+
+# Dependency directories
+dependencies/
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Text editor backup files
+*~
+*.swp
+*.bak
+*.backup
+
+lib/
+src/hw-cbmc/hw-cbmc
+src/ebmc/ebmc
+src/ebmc/dist-linux
+src/ebmc/dist-mac
+src/ebmc/dist-win

@@ -21,6 +21,12 @@ ebmc.dir: trans-word-level.dir trans-netlist.dir verilog.dir vhdl.dir \
 hw-cbmc.dir: trans-word-level.dir trans-netlist.dir verilog.dir \
          vhdl.dir smvlang.dir cprover.dir
 
+# ebmc.dir: trans-word-level.dir trans-netlist.dir \
+#      ic3.dir aiger.dir cprover.dir
+
+# hw-cbmc.dir: trans-word-level.dir trans-netlist.dir \
+#     	cprover.dir
+
 # building cbmc proper
 .PHONY: cprover.dir
 cprover.dir:

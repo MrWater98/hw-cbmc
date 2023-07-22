@@ -10,7 +10,7 @@ Author: Daniel Kroening, kroening@kroening.com
 #include "vhdl_language.h"
 
 const char vhdl_library_standard[]=
-#include "library_standard.inc"
+"#include \"library_standard.inc\""
 ;
 
 /*******************************************************************\
