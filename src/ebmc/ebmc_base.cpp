@@ -34,6 +34,8 @@ Author: Daniel Kroening, kroening@kroening.com
 #include <langapi/language_util.h>
 #include <langapi/mode.h>
 
+#include <verilog/expr2verilog.h>
+
 #include "ebmc_base.h"
 #include "ebmc_version.h"
 
@@ -136,6 +138,9 @@ int ebmc_baset::finish_bmc(prop_conv_solvert &solver) {
       solver.dec_solve();
 
     solver.pop();
+
+    printf("Assignments:\n");
+    solver.print_assignment(std::cout);
 
     switch(dec_result)
     {
@@ -706,6 +711,7 @@ int ebmc_baset::get_model()
     namespacet ns(symbol_table);
     exprt reset_constraint=to_expr(ns, main_symbol->name, cmdline.get_value("reset"));
 
+
     // true in initial state
     CHECK_RETURN(trans_expr.has_value());
     transt new_trans_expr = *trans_expr;
@@ -719,6 +725,11 @@ int ebmc_baset::get_model()
         and_exprt(new_trans_expr.trans(), not_exprt(reset_next_state));
     *trans_expr = new_trans_expr;
   }
+
+  // if(true)
+  // {
+  //    std::cout << main_symbol->value.size() << std::endl;
+  // }
 
   // Property given on command line?
   if(cmdline.isset('p'))

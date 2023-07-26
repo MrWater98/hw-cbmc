@@ -1,4 +1,4 @@
-smv_typecheck.o: smv_typecheck.cpp \
+verilog_typecheck_base.o: verilog_typecheck_base.cpp ../util/ebmc_util.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/arith_tools.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/invariant.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/mp_arith.h \
@@ -28,20 +28,26 @@ smv_typecheck.o: smv_typecheck.cpp \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/exception_utils.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/narrow.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr_util.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/mathematical_expr.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_expr.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/typecheck.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h \
- smv_typecheck.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_types.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol_table.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol_table_base.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/solvers/sat/cnf.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/solvers/prop/prop.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h \
- smv_parse_tree.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/string_hash.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/threeval.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/solvers/prop/literal.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr_util.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/prefix.h \
+ expr2verilog.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h \
- expr2smv.h
+ verilog_typecheck_base.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/namespace.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/typecheck.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/mp_arith.h
+
+../util/ebmc_util.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/arith_tools.h:
 
@@ -101,17 +107,7 @@ smv_typecheck.o: smv_typecheck.cpp \
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/narrow.h:
 
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr_util.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/mathematical_expr.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_expr.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/typecheck.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h:
-
-smv_typecheck.h:
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_types.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol_table.h:
 
@@ -119,12 +115,30 @@ smv_typecheck.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol.h:
 
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/solvers/sat/cnf.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/solvers/prop/prop.h:
+
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h:
 
-smv_parse_tree.h:
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/threeval.h:
 
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/string_hash.h:
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/solvers/prop/literal.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr_util.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/prefix.h:
+
+expr2verilog.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h:
 
-expr2smv.h:
+verilog_typecheck_base.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/namespace.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/typecheck.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/mp_arith.h:

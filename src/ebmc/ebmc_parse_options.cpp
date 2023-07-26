@@ -193,6 +193,8 @@ int ebmc_parse_optionst::doit()
  
   {
     ebmc_baset ebmc_base(cmdline, ui_message_handler);
+
+    
   
     int result=ebmc_base.get_model();
 

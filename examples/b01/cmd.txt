@@ -1,0 +1,2 @@
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/ebmc/ebmc /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v --module b01 --reset "reset==1&&target==0" --bound 10
+perf record -g --call-graph dwarf /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/ebmc/ebmc /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v --module b01 --reset "reset==1&&target==0" --bound 10 --show-trans

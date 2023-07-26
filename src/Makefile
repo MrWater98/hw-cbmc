@@ -5,9 +5,25 @@ CPROVER_DIR = $(EBMC_DIR)/../lib/cbmc/src
 export CPROVER_DIR
 export EBMC_DIR
 
+.PHONY: cclean all  hw-cbmc.dir ebmc.dir
+
 all: hw-cbmc.dir ebmc.dir
 
-.PHONY: clean
+cclean: clean-verilog clean-vhdl clean-smvlang
+
+clean-verilog:
+	@echo "Cleaning up verilog directory..."
+	$(MAKE) clean -C verilog
+
+clean-vhdl:
+	@echo "Cleaning up vhdl directory..."
+	$(MAKE) clean -C vhdl
+
+clean-smvlang:
+	@echo "Cleaning up smvlang directory..."
+	$(MAKE) clean -C smvlang
+
+
 
 $(patsubst %, %.dir, $(DIRS)):
 	## Entering $(basename $@)
@@ -34,6 +50,7 @@ cprover.dir:
   CP_EXTRA_CXXFLAGS='-D"LOCAL_IREP_IDS=<$(EBMC_DIR)/hw_cbmc_irep_ids.h>"'
 
 clean: $(patsubst %, %_clean, $(SUBDIRS))
+
 
 $(patsubst %, %_clean, $(SUBDIRS)):
 	if [ -e $(patsubst %_clean, %, $@)/. ] ; then \

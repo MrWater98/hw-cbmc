@@ -1,5 +1,4 @@
-smv_parser.o: smv_parser.cpp smv_parser.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/parser.h \
+verilog_module.o: verilog_module.cpp verilog_module.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/deprecate.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/type.h \
@@ -17,16 +16,9 @@ smv_parser.o: smv_parser.cpp smv_parser.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/nonstd/optional.hpp \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate_types.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validation_mode.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate_expressions.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/file_util.h \
- smv_parse_tree.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/string_hash.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate_expressions.h
 
-smv_parser.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/parser.h:
+verilog_module.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h:
 
@@ -63,13 +55,3 @@ smv_parser.h:
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validation_mode.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate_expressions.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/file_util.h:
-
-smv_parse_tree.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/string_hash.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h:

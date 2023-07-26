@@ -1,5 +1,5 @@
-y.tab.o: y.tab.cpp smv_parser.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/parser.h \
+vtype.o: vtype.cpp \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_types.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/deprecate.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/type.h \
@@ -18,28 +18,16 @@ y.tab.o: y.tab.cpp smv_parser.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate_types.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validation_mode.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate_expressions.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/file_util.h \
- smv_parse_tree.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/string_hash.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h \
- smv_typecheck.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol_table.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol_table_base.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h \
- /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_types.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr_cast.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/mp_arith.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/big-int/bigint.hh \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/exception_utils.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/narrow.h \
- y.tab.h
+ verilog_types.h vtype.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/type.h
 
-smv_parser.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/parser.h:
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_types.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h:
 
@@ -77,28 +65,6 @@ smv_parser.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/validate_expressions.h:
 
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/file_util.h:
-
-smv_parse_tree.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/string_hash.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr.h:
-
-smv_typecheck.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol_table.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol_table_base.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/symbol.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/message.h:
-
-/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_types.h:
-
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/expr_cast.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/mp_arith.h:
@@ -111,4 +77,8 @@ smv_typecheck.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/narrow.h:
 
-y.tab.h:
+verilog_types.h:
+
+vtype.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/type.h:

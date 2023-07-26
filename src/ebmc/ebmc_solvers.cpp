@@ -27,6 +27,10 @@ Author: Daniel Kroening, kroening@kroening.com
 #include "ebmc_base.h"
 #include "ebmc_version.h"
 
+#include "verilog/expr2verilog.h"
+#include "verilog/verilog_parse_tree.h"
+#include "verilog/verilog_language.h"
+
 /*******************************************************************\
 
 Function: ebmc_baset::do_dimacs
@@ -265,6 +269,15 @@ Function: ebmc_baset::do_sat
 
 int ebmc_baset::do_sat()
 {
+
+  // verilog_parse_treet vpt;
+  // std::unique_ptr<verilog_languaget> vl = language_files.file_map.begin()->second.language;
+  // vpt.swap(vl->get_parse_tree());
+  // forall_expr(it,language_files.file_mapt.begin().second.languge)
+  // {
+  //   std::cout << expr2verilog(*it) << std::endl;
+  // }
+  
   satcheckt satcheck{*message_handler};
 
   status() << "Using " << satcheck.solver_text() << eom;

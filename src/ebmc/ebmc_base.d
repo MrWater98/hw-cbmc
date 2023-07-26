@@ -89,7 +89,7 @@ ebmc_base.o: ebmc_base.cpp \
  ../trans-word-level/show_modules.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/langapi/language_util.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/langapi/mode.h \
- ebmc_base.h \
+ ../verilog/expr2verilog.h ebmc_base.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/langapi/language_file.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/langapi/language.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/std_types.h \
@@ -283,6 +283,8 @@ ebmc_base.o: ebmc_base.cpp \
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/langapi/language_util.h:
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/langapi/mode.h:
+
+../verilog/expr2verilog.h:
 
 ebmc_base.h:
 

@@ -7,6 +7,7 @@ Author: Daniel Kroening, kroening@kroening.com
 \*******************************************************************/
 
 #include <sstream>
+#include <iostream>
 
 #include <util/suffix.h>
 
@@ -53,6 +54,28 @@ bool verilog_languaget::parse(
   bool result=verilog_parser.parse();
 
   parse_tree.swap(verilog_parser.parse_tree);
+
+
+  // std::cout << expr2verilog(parse_tree.items.front().verilog_module.ports) << std::endl;
+  // int i = 0;
+  // forall_expr(it,parse_tree.items.front().verilog_module.module_items.operands()[10].operands()[0].operands()[1].operands()[1].operands()[0].operands()){
+  //   std::cout << "ID:" << i++ << std::endl;
+  //   std::cout << expr2verilog(parse_tree.items.front().verilog_module.module_items.operands()[10].operands()[0].operands()[1].operands()[1].operands()[0]) << std::endl;
+  //   std::cout << expr2verilog(*it) << std::endl;
+  // }
+  // irept module_items=parse_tree.items.front().verilog_module.to_irep();
+  // forall_named_irep(it,module_items.get_named_sub()){
+  //   std::cout<<it->first.c_str()<<std::endl;
+  //   forall_named_irep(it2,it->second.get_named_sub()){
+  //     std::cout<<"  "<<it2->first.c_str()<<std::endl;
+  //     //std::cout<<expr2verilog(it2->second)<<std::endl;
+  //   }
+  //   forall_irep(it2,it->second.get_sub()){
+  //     std::cout<<"  "<<it2->id()<<std::endl;
+      
+  //   }
+  //   //std::cout<<expr2verilog(it->second)<<std::endl;
+  // }
 
   // save some memory
   verilog_parser.clear();

@@ -9,6 +9,7 @@ module b01 (
 );
 
 reg [2:0] stato;
+reg target;
 // reg  outp;
 // reg overflw;
 
@@ -47,6 +48,7 @@ always@(posedge clock)
 					stato <= f;
 				end
 				else begin
+					target <= 1;
 					stato <= b ;
 				end
 				outp <= line1 | line2;
@@ -119,5 +121,5 @@ always@(posedge clock)
 				overflw <= 1'b0 ;
 			end
         endcase
-
+	always assert p1: (!(reset==0&&target==1));
 endmodule

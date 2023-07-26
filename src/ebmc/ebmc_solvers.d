@@ -88,7 +88,13 @@ ebmc_solvers.o: ebmc_solvers.cpp \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/solvers/prop/literal.h \
  ../trans-netlist/var_map.h ../trans-netlist/bv_varid.h \
  /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/irep.h \
- ../trans-netlist/netlist.h ../trans-netlist/trans_trace.h ebmc_version.h
+ ../trans-netlist/netlist.h ../trans-netlist/trans_trace.h ebmc_version.h \
+ ../verilog/expr2verilog.h ../verilog/verilog_parse_tree.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/string_hash.h \
+ ../verilog/verilog_module.h ../verilog/verilog_language.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/options.h \
+ /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/langapi/language.h \
+ ../verilog/verilog_parse_tree.h
 
 /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/cmdline.h:
 
@@ -277,3 +283,19 @@ ebmc_base.h:
 ../trans-netlist/trans_trace.h:
 
 ebmc_version.h:
+
+../verilog/expr2verilog.h:
+
+../verilog/verilog_parse_tree.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/string_hash.h:
+
+../verilog/verilog_module.h:
+
+../verilog/verilog_language.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/util/options.h:
+
+/home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/src/../lib/cbmc/src/langapi/language.h:
+
+../verilog/verilog_parse_tree.h:
