@@ -1,0 +1,9 @@
+Parsing /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+Converting
+Type-checking Verilog::b01
+Module 1:
+  Location:   file /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v line 1
+  Mode:       Verilog
+  Identifier: Verilog::b01
+  Name:       b01
+

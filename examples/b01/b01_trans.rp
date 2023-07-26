@@ -1,0 +1,54 @@
+Parsing /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+Converting
+Type-checking Verilog::b01
+Initial state constraints:
+
+  1
+
+  b01.reset == 1
+
+  b01.target == 0
+
+State constraints:
+
+  b01.outp_aux8 == !(b01.line1 || b01.line2)
+
+  b01.outp_aux7 == (b01.line1 || b01.line2)
+
+  b01.outp_aux6 == !(b01.line1 || b01.line2)
+
+  b01.outp_aux5 == (b01.line1 || b01.line2)
+
+  b01.outp_aux4 == !xor
+  * type: bool
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 76
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: symbol
+      * type: bool
+      * identifier: Verilog::b01.line1
+  1: symbol
+      * type: bool
+      * identifier: Verilog::b01.line2
+
+  b01.outp_aux0 == (b01.line1 || b01.line2)
+
+  b01.target_aux1 == 1[0]
+
+  b01.outp_aux2 == (b01.line1 || b01.line2)
+
+  b01.outp_aux3 == (b01.line1 || b01.line2)
+
+Transition constraints:
+
+  next(b01.overflw) == (b01.reset == 1'b1 ? 0 : b01.stato == 3'b0 ? 0 : b01.stato == 3'b11 ? 1 : b01.stato == 3'b1 ? 0 : b01.stato == 3'b100 ? 0 : b01.stato == 3'b10 ? 0 : b01.stato == 3'b101 ? 0 : b01.stato == 3'b110 ? 0 : b01.stato == 3'b111 ? 0 : b01.overflw)
+
+  next(b01.target) == (b01.reset == 1'b1 ? b01.target : b01.stato == 3'b0 ? b01.target : b01.stato == 3'b11 ? b01.line1 == 1'b1 && b01.line2 == 1'b1 ? b01.target : b01.target_aux1 : b01.target)
+
+  next(b01.stato) == (b01.reset == 1'b1 ? 3'b0 : b01.stato == 3'b0 ? b01.line1 == 1'b1 && b01.line2 == 1'b1 ? 3'b100 : 3'b1 : b01.stato == 3'b11 ? b01.line1 == 1'b1 && b01.line2 == 1'b1 ? 3'b100 : 3'b1 : b01.stato == 3'b1 ? b01.line1 == 1'b1 && b01.line2 == 1'b1 ? 3'b101 : 3'b10 : b01.stato == 3'b100 ? b01.line1 == 1'b1 || b01.line2 == 1'b1 ? 3'b101 : 3'b10 : b01.stato == 3'b10 ? b01.line1 == 1'b1 && b01.line2 == 1'b1 ? 3'b111 : 3'b110 : b01.stato == 3'b101 ? b01.line1 == 1'b1 || b01.line2 == 1'b1 ? 3'b111 : 3'b110 : b01.stato == 3'b110 ? b01.line1 == 1'b1 && b01.line2 == 1'b1 ? 3'b11 : 3'b0 : b01.stato == 3'b111 ? b01.line1 == 1'b1 || b01.line2 == 1'b1 ? 3'b11 : 3'b0 : b01.stato)
+
+  next(b01.outp) == (b01.reset == 1'b1 ? 0 : b01.stato == 3'b0 ? b01.outp_aux0 : b01.stato == 3'b11 ? b01.outp_aux2 : b01.stato == 3'b1 ? b01.outp_aux3 : b01.stato == 3'b100 ? b01.outp_aux4 : b01.stato == 3'b10 ? b01.outp_aux5 : b01.stato == 3'b101 ? b01.outp_aux6 : b01.stato == 3'b110 ? b01.outp_aux7 : b01.stato == 3'b111 ? b01.outp_aux8 : b01.outp)
+
+  !(next(b01.reset) == 1 && next(b01.target) == 0)
+

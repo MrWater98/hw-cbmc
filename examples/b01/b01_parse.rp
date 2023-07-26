@@ -1,0 +1,1701 @@
+Parsing /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+Module: b01
+  Ports:
+    decl
+  * type: nil
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 2
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  * class: input
+  0: symbol
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 2
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: clock
+    decl
+  * type: nil
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 3
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  * class: input
+  0: symbol
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 3
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: line1
+    decl
+  * type: nil
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 4
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  * class: input
+  0: symbol
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 4
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: line2
+    decl
+  * type: nil
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 5
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  * class: input
+  0: symbol
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 5
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: reset
+    decl
+  * type: nil
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 7
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  * class: output_register
+  0: symbol
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 7
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: outp
+    decl
+  * type: nil
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 8
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  * class: output_register
+  0: symbol
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 8
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: overflw
+
+  Module items:
+    decl
+  * type: array
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 11
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * range: 
+        0: constant
+            * #source_location: 
+              * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+              * line: 11
+              * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+            * value: 2
+        1: constant
+            * #source_location: 
+              * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+              * line: 11
+              * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+            * value: 0
+      0: nil
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 11
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  * class: reg
+  0: symbol
+      * type: nil
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 11
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: stato
+    decl
+  * type: nil
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 12
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  * class: reg
+  0: symbol
+      * type: nil
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 12
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: target
+    parameter_decl
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 16
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: parameter
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 16
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * value: constant
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 16
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          * value: 3'b0
+      * identifier: a
+    parameter_decl
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 17
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: parameter
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 17
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * value: constant
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 17
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          * value: 3'b001
+      * identifier: b
+    parameter_decl
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 18
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: parameter
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 18
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * value: constant
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 18
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          * value: 3'b010
+      * identifier: c
+    parameter_decl
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 19
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: parameter
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 19
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * value: constant
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 19
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          * value: 3'b011
+      * identifier: e
+    parameter_decl
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 20
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: parameter
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 20
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * value: constant
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 20
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          * value: 3'b100
+      * identifier: f
+    parameter_decl
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 21
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: parameter
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 21
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * value: constant
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 21
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          * value: 3'b101
+      * identifier: g
+    parameter_decl
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 22
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: parameter
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 22
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * value: constant
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 22
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          * value: 3'b110
+      * identifier: wf0
+    parameter_decl
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 23
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: parameter
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 23
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * value: constant
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 23
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          * value: 3'b111
+      * identifier: wf1
+    always
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 123
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: event_guard
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 25
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      0: event
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 25
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          0: posedge
+              * #source_location: 
+                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                * line: 25
+                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+              0: symbol
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 25
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  * identifier: clock
+      1: if
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 123
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          0: =
+              * #source_location: 
+                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                * line: 26
+                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+              0: symbol
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 26
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  * identifier: reset
+              1: constant
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 26
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  * value: 1'b1
+          1: block
+              * #source_location: 
+                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                * line: 31
+                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+              0: non_blocking_assign
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 28
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: symbol
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 28
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * identifier: stato
+                  1: symbol
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 28
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * identifier: a
+              1: non_blocking_assign
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 29
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: symbol
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 29
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * identifier: outp
+                  1: constant
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 29
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * value: 1'b0
+              2: non_blocking_assign
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 30
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: symbol
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 30
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * identifier: overflw
+                  1: constant
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 30
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * value: 1'b0
+          2: case
+              * #source_location: 
+                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                * line: 123
+                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+              0: symbol
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 33
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  * identifier: stato
+              1: case_item
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 44
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: 
+                    * #source_location: 
+                      * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                      * line: 34
+                      * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                    0: symbol
+                        * #source_location: 
+                          * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                          * line: 34
+                          * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                        * identifier: a
+                  1: block
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 44
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      0: if
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 41
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: and
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 36
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 36
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 36
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 36
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                              1: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 36
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 36
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 36
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                          1: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 38
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 37
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 37
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 37
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: f
+                          2: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 41
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 40
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 40
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 40
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: b
+                      1: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 42
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 42
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: outp
+                          1: bitor
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 42
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 42
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line1
+                              1: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 42
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line2
+                      2: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 43
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 43
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: overflw
+                          1: constant
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 43
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * value: 1'b0
+              2: case_item
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 56
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: 
+                    * #source_location: 
+                      * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                      * line: 45
+                      * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                    0: symbol
+                        * #source_location: 
+                          * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                          * line: 45
+                          * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                        * identifier: e
+                  1: block
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 56
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      0: if
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 53
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: and
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 47
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 47
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 47
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 47
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                              1: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 47
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 47
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 47
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                          1: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 49
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 48
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 48
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 48
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: f
+                          2: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 53
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 51
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 51
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: target
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 51
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1
+                              1: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 52
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 52
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 52
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: b
+                      1: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 54
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 54
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: outp
+                          1: bitor
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 54
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 54
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line1
+                              1: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 54
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line2
+                      2: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 55
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 55
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: overflw
+                          1: constant
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 55
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * value: 1'b1
+              3: case_item
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 67
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: 
+                    * #source_location: 
+                      * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                      * line: 57
+                      * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                    0: symbol
+                        * #source_location: 
+                          * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                          * line: 57
+                          * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                        * identifier: b
+                  1: block
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 67
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      0: if
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 64
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: and
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 59
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 59
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 59
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 59
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                              1: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 59
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 59
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 59
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                          1: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 61
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 60
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 60
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 60
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: g
+                          2: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 64
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 63
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 63
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 63
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: c
+                      1: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 65
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 65
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: outp
+                          1: bitor
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 65
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 65
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line1
+                              1: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 65
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line2
+                      2: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 66
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 66
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: overflw
+                          1: constant
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 66
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * value: 1'b0
+              4: case_item
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 78
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: 
+                    * #source_location: 
+                      * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                      * line: 68
+                      * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                    0: symbol
+                        * #source_location: 
+                          * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                          * line: 68
+                          * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                        * identifier: f
+                  1: block
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 78
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      0: if
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 75
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: or
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 70
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 70
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 70
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 70
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                              1: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 70
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 70
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 70
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                          1: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 72
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 71
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 71
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 71
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: g
+                          2: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 75
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 74
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 74
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 74
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: c
+                      1: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 76
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 76
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: outp
+                          1: bitnot
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 76
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: bitxor
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 76
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 76
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 76
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                      2: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 77
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 77
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: overflw
+                          1: constant
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 77
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * value: 1'b0
+              5: case_item
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 89
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: 
+                    * #source_location: 
+                      * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                      * line: 79
+                      * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                    0: symbol
+                        * #source_location: 
+                          * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                          * line: 79
+                          * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                        * identifier: c
+                  1: block
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 89
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      0: if
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 86
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: and
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 81
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 81
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 81
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 81
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                              1: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 81
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 81
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 81
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                          1: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 83
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 82
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 82
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 82
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: wf1
+                          2: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 86
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 85
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 85
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 85
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: wf0
+                      1: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 87
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 87
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: outp
+                          1: bitor
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 87
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 87
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line1
+                              1: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 87
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line2
+                      2: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 88
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 88
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: overflw
+                          1: constant
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 88
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * value: 1'b0
+              6: case_item
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 100
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: 
+                    * #source_location: 
+                      * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                      * line: 90
+                      * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                    0: symbol
+                        * #source_location: 
+                          * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                          * line: 90
+                          * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                        * identifier: g
+                  1: block
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 100
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      0: if
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 97
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: or
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 92
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 92
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 92
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 92
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                              1: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 92
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 92
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 92
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                          1: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 94
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 93
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 93
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 93
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: wf1
+                          2: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 97
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 96
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 96
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 96
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: wf0
+                      1: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 98
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 98
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: outp
+                          1: bitnot
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 98
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: bitor
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 98
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 98
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 98
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                      2: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 99
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 99
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: overflw
+                          1: constant
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 99
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * value: 1'b0
+              7: case_item
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 111
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: 
+                    * #source_location: 
+                      * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                      * line: 101
+                      * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                    0: symbol
+                        * #source_location: 
+                          * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                          * line: 101
+                          * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                        * identifier: wf0
+                  1: block
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 111
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      0: if
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 108
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: and
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 103
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 103
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 103
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 103
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                              1: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 103
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 103
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 103
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                          1: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 105
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 104
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 104
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 104
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: e
+                          2: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 108
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 107
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 107
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 107
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: a
+                      1: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 109
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 109
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: outp
+                          1: bitor
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 109
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 109
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line1
+                              1: symbol
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 109
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  * identifier: line2
+                      2: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 110
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 110
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: overflw
+                          1: constant
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 110
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * value: 1'b0
+              8: case_item
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 122
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: 
+                    * #source_location: 
+                      * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                      * line: 112
+                      * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                    0: symbol
+                        * #source_location: 
+                          * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                          * line: 112
+                          * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                        * identifier: wf1
+                  1: block
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 122
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      0: if
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 119
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: or
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 114
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 114
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 114
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 114
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                              1: =
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 114
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 114
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                                  1: constant
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 114
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * value: 1'b1
+                          1: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 116
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 115
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 115
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 115
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: e
+                          2: block
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 119
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: non_blocking_assign
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 118
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 118
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: stato
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 118
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: a
+                      1: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 120
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 120
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: outp
+                          1: bitnot
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 120
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              0: bitor
+                                  * #source_location: 
+                                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                    * line: 120
+                                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                  0: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 120
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line1
+                                  1: symbol
+                                      * #source_location: 
+                                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                        * line: 120
+                                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                                      * identifier: line2
+                      2: non_blocking_assign
+                          * #source_location: 
+                            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                            * line: 121
+                            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                          0: symbol
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 121
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * identifier: overflw
+                          1: constant
+                              * #source_location: 
+                                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                                * line: 121
+                                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                              * value: 1'b0
+    always
+  * #source_location: 
+    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+    * line: 124
+    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+  0: assert
+      * #source_location: 
+        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+        * line: 124
+        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+      * identifier: p1
+      0: not
+          * #source_location: 
+            * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+            * line: 124
+            * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+          0: and
+              * #source_location: 
+                * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                * line: 124
+                * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+              0: =
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 124
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: symbol
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 124
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * identifier: reset
+                  1: constant
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 124
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * value: 0
+              1: =
+                  * #source_location: 
+                    * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                    * line: 124
+                    * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                  0: symbol
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 124
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * identifier: target
+                  1: constant
+                      * #source_location: 
+                        * file: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01/b01.v
+                        * line: 124
+                        * working_directory: /home/ziyue/researchlib/Micro_Eletronic/hw-cbmc/examples/b01
+                      * value: 1
+      1: nil
+
